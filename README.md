@@ -1,5 +1,5 @@
 # Snooker_Matches
-A python console application that retrieves Snooker matches that will be played on that day. 
+A small python console application that retrieves Snooker matches that will be played on that day. 
 
 I created this console application as I was learning Python, and as a snooker fan I didn't want to be manually checking what games are on each day. 
 

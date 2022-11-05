@@ -9,7 +9,7 @@ The database being used in this project is hosted locally on my machine and stor
 
 ---
 
-I personally use this application every day as I is ran on startup of my PC.
+This application is run each day on my PC on Pc startup.
 
 ---
 

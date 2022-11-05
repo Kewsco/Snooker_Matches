@@ -1,4 +1,5 @@
 from player import Player
+# A class to represent a single match, containing two Players.
 class Match:
     def __init__(self, pOne:Player, pTwo:Player, event:int, date:str):
         self.p1 = pOne

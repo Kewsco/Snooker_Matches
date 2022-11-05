@@ -1,6 +1,8 @@
 from sqlite3 import Cursor
 import pyodbc as odbc
 from player import Player
+
+# A class to connect to the database and perform data retirieval. 
 class Database:
     def __init__(self):
         self.db = None        

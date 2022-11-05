@@ -2,6 +2,8 @@ import requests
 import json
 from database import Database
 
+#Python3 - This script gets every single player provided by the API and stores them into a local database. 
+
 def InsertAllPlayersIntoDB() -> None:
     playerURL:str = "http://api.snooker.org/?p="
     playerid = 1
@@ -33,6 +35,7 @@ def InsertAllPlayersIntoDB() -> None:
         if playerErrorCount > 25:
             break
 
+# Format names containing apostrophes. (O'Sullivan, etc.) 
 def NameFormatter(name:str) -> str:
     nameChars = list(name)
     for i in range(len(nameChars)):

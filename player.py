@@ -1,4 +1,4 @@
-
+# Class to represent a Player.
 class Player:
     def __init__(self, id:int, firstname:str, lastname:str, nationality:str, dob:str, gender:str):
         self.id = id
